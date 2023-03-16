@@ -1,0 +1,57 @@
+#header{
+    background-color: blanchedalmond;
+    padding: 60px 70px 30px 20px;
+    text-align: right;
+    margin: -10px;
+}
+#header a{
+    margin: 10px;
+    text-decoration: none;
+    color: Black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+#header a:hover{
+    background-color: white;
+}
+
+
+#container{
+    background-image: url(/img/b1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+
+}
+
+.event {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: aliceblue;
+  }
+  
+  .event:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: black;
+    color: white;
+  }
+  
